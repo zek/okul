@@ -1,3 +1,5 @@
-# Ders Notları ve Ödevler
+# Ders Notlar谋 ve 脰devler
 
-Burada Ankara Üniversitesi Bilgisayar Mühendisliği 100% İngilizce bölümünde okduduğum süre boyunca hazÅ0ê3rlamÅ0ê3Å0î6 olduÅ0é6um Å0ã2dev ve ders notlarÅ0ê3nÅ0ê3 bir araya getirmeye Å0ä4alÅ0ê3Å0î6tÅ0ê3m.
+Burada Ankara 脺niversitesi Bilgisayar M眉hendisli臒i 100% 陌ngilizce b枚l眉m眉nde okudu臒um s眉re boyunca haz谋rlam谋艧 oldu臒um 枚dev ve ders notlar谋n谋 derlemeye 莽al谋艧t谋m.
+
+Umar谋m bu b枚l眉mde okuyan arkada艧lar i莽in yol g枚sterici olur.
