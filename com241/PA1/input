@@ -1,0 +1,47 @@
+#include "string.h"
+#include "test.h"
+#include "test2.h"
+
+// Yorum Satırı
+int a;
+
+int b;
+
+int fn1(int a){
+    fn1(a);
+}
+
+int fn2(){ //Deneme
+
+}
+
+int a;
+
+/**
+ * Yorum Satırı
+ * @return
+ */
+main(){
+    int a;
+    int i;
+    int b;
+
+
+
+    a = 1;
+    a = 'a';
+    print("\nMerhaba\" Dünya");
+
+    if(a){
+        if(b){
+            while(1){
+
+            }
+        }
+    }
+
+    while(i < 100){
+        i = i + 1;
+    }
+    output(i);
+}
