@@ -1,0 +1,7 @@
+=14.4
+=0
+=42
+Grammer error
+Division error
+Remainder floating error
+=18

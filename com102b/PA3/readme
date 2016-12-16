@@ -1,0 +1,70 @@
+----------------
+About Calculator
+----------------
+It calculates basic mathematical expressions.
+It has +, -, *, /, % operators and it can calculate parenthesised expressions.
+
+-------------------
+Sample Input/Output
+-------------------
+./15290090
+< 2+3-25/5;
+> =0
+< 2+3.1*4;
+> 14.4
+
+------
+Errors
+------
+Grammer error:
+		
+Division error:
+	number / 0
+Remainder floating error:
+	floating point % number
+Remainder error:
+	number % 0
+
+--------------
+Implementation
+--------------
+
+enum Type: Token types
+class Token: Each significant word stored as a Token
+class Parser:
+  function getToken:
+    Converts input stream to a Token if nextToken is need.
+    Otherwise returns previously generated Token.
+  function primary:
+    It implements top priority rules of calculator.
+    Which are number, or an expression inside in parenthesis.
+  function term:
+    It implements second priority rules of calculator.
+    Which are division, multiplication, division operators.
+  function expression:
+    It implements least significant rules of calculator.
+    Which are addition and subtraction operators.
+
+-------------
+Grammar Rules
+-------------
+Expression:
+	Term
+	Expression "+" Term
+	Expression "-" Term
+Term:
+	Primary
+	Term "*" Primary
+	Term "/" Primary
+	Term "%" Primary
+Primary:
+	Number
+	"(" Expression ")"
+Number:
+	floating-point-literal
+
+---------
+Copyright
+---------
+
+Copyright Talha Zekeriya Durmuş <drtzack@gmail.com> 2016
