@@ -114,11 +114,15 @@ string getTokenName(Token token) {
 }
 
 int error() {
-    cout << "Hata: Token(" << getTokenName(token) << ")" << endl;
-    size_t i = ts_stack.size() - 1;
-    for (; !ts_stack.empty(); ts_stack.pop(), i--) {
-        cout << i << ": (" << ts_stack.top().state << "," << getTokenName(ts_stack.top().token) << ")" << endl;
+    if(token == eof){
+        cout << "Hata: Token bekleniyor" << endl;
+    }else{
+        cout << "Hata: Token(" << getTokenName(token) << ")" << endl;
     }
+    //size_t i = ts_stack.size() - 1;
+    //for (; !ts_stack.empty(); ts_stack.pop(), i--) {
+    //    cout << i << ": (" << ts_stack.top().state << "," << getTokenName(ts_stack.top().token) << ")" << endl;
+    //}
     exit(0);
 }
 
@@ -255,13 +259,11 @@ int main() {
     line = ss.str();
     ss.unsetf(ios_base::skipws);
 
-    string line2 = line;
-    trim(line2);
-    cout << "\t\t" << line2 << "\t\t$0" << endl;
-
     ts_stack.push(TokenState(eof, 0));
-
     token = getToken();
+    cout << "\t\t";
+    show_input();
+    cout << " \t$0" << endl;
 
     while (true) {
 
@@ -282,7 +284,7 @@ int main() {
                 } else if (token == eof) {
                     cout << ("accept\t\t");
                     show_input();
-                    cout << ("\t");
+                    cout << (" \t");
                     print_status();
                     exit(0);
                 }
