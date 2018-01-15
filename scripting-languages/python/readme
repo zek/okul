@@ -1,0 +1,4 @@
+# Readme
+cmake .
+make
+python sudoku.py input
