@@ -1,0 +1,32 @@
+===== BIG ORDER =====
+Dumplings	12.3	2.22
+Pasta	32.8	6.66
+Pierogi	22.2	1.33
+Gazpacho	56.99	8.99
+Chicken	30.99	1.66
+
+Total price: 155.28
+Total tax: 20.86
+
+===== BIG MEAL =====
+Number of dishes: 5
+*** First print of dishes ***
+Dumplings	1234	100
+Pasta	981	100
+Pierogi	1111	100
+Gazpacho	15	100
+Chicken	1042	100
+
+*** After first bite ***
+Dumplings	1234	95
+Pasta	981	95
+Pierogi	1111	95
+Gazpacho	15	95
+Chicken	1042	95
+
+*** Bite only one ***
+Dumplings	1234	85
+Pasta	981	95
+Pierogi	1111	95
+Gazpacho	15	95
+Chicken	1042	95
