@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="725.5">Heart</node>
+    <node x="256.7692307692308" y="0.0">Sprite</node>
+    <node x="148.43846153846152" y="412.0">Egg</node>
+    <node x="995.0000000000001" y="604.0">Target</node>
+    <node x="219.5" y="992.0">Board</node>
+    <node x="775.0000000000001" y="714.5">Cloud</node>
+    <node x="503.00000000000006" y="681.0">Cat</node>
+    <node x="198.00000000000006" y="637.0">Chicken</node>
+    <node x="552.5" y="1844.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Egg" target="Sprite">
+      <point x="0.0" y="-71.0" />
+      <point x="280.4384615384615" y="392.0" />
+      <point x="369.8692307692308" y="392.0" />
+      <point x="-75.39999999999998" y="181.0" />
+    </edge>
+    <edge source="Board" target="Cloud">
+      <point x="122.85000000000002" y="-401.0" />
+      <point x="751.85" y="972.0" />
+      <point x="825.0000000000001" y="972.0" />
+      <point x="-50.0" y="48.5" />
+    </edge>
+    <edge source="Heart" target="Sprite">
+      <point x="0.0" y="-37.5" />
+      <point x="89.00000000000006" y="382.0" />
+      <point x="294.46923076923076" y="382.0" />
+      <point x="-150.8" y="181.0" />
+    </edge>
+    <edge source="Board" target="Target">
+      <point x="368.54999999999995" y="-401.0" />
+      <point x="997.55" y="972.0" />
+      <point x="1289.0" y="972.0" />
+      <point x="98.0" y="159.0" />
+    </edge>
+    <edge source="Cloud" target="Sprite">
+      <point x="0.0" y="-48.5" />
+      <point x="875.0000000000001" y="382.0" />
+      <point x="596.0692307692307" y="382.0" />
+      <point x="150.79999999999995" y="181.0" />
+    </edge>
+    <edge source="Main" target="Board">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="401.0" />
+    </edge>
+    <edge source="Cat" target="Sprite">
+      <point x="0.0" y="-82.0" />
+      <point x="629.0" y="392.0" />
+      <point x="520.6692307692308" y="392.0" />
+      <point x="75.39999999999998" y="181.0" />
+    </edge>
+    <edge source="Board" target="Heart">
+      <point x="-286.64999999999986" y="-401.0" />
+      <point x="342.35000000000014" y="962.0" />
+      <point x="133.5" y="962.0" />
+      <point x="44.5" y="37.5" />
+    </edge>
+    <edge source="Board" target="Chicken">
+      <point x="-122.84999999999991" y="-401.0" />
+      <point x="506.1500000000001" y="942.0" />
+      <point x="411.75000000000006" y="942.0" />
+      <point x="71.25" y="126.0" />
+    </edge>
+    <edge source="Chicken" target="Egg">
+      <point x="0.0" y="-126.0" />
+      <point x="340.50000000000006" y="579.0" />
+      <point x="346.4384615384615" y="579.0" />
+      <point x="66.0" y="71.0" />
+    </edge>
+    <edge source="Chicken" target="Sprite">
+      <point x="95.0" y="-126.0" />
+      <point x="435.50000000000006" y="579.0" />
+      <point x="469.0846153846154" y="579.0" />
+      <point x="469.0846153846154" y="392.0" />
+      <point x="445.2692307692308" y="392.0" />
+      <point x="0.0" y="181.0" />
+    </edge>
+    <edge source="Board" target="Cat">
+      <point x="-40.94999999999993" y="-401.0" />
+      <point x="588.0500000000001" y="972.0" />
+      <point x="566.0" y="972.0" />
+      <point x="-63.0" y="82.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3819479857215706" x="693.5" y="970.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
